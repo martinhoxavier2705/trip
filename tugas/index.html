@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wisata Alam Indah</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    nav {
+      width: 200px;
+      background-color: #2b1602;
+      padding: 20px;
+    }
+    nav h2 {
+      color: #a3550c;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    nav ul li {
+      margin-bottom: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 8px;
+    }
+    nav a:hover {
+      background-color: #2af917;
+    }
+    main {
+      flex: 1;
+      padding: 30px;
+      background-color: #f5f5f5;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      color: #52360c;
+      border-bottom: 2px solid #ca7f0e;
+      padding-bottom: 5px;
+    }
+    .destination {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(250, 240, 240);
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(4, 211, 111, 0.1);
+      margin: 10px;
+      width: 300px;
+    }
+    .destination img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #343613;
+      color: #3ef506;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div style="display: flex; min-height: 100vh; background-color: #2b1602; color: #fff;">
+    <!-- Sidebar Navigasi -->
+    <nav>
+      <div style="text-align: center; margin-bottom: 30px;">
+        <h2>Wisata Alam Indah</h2>
+        <p style="font-size: 12px">Temukan Keindahan Alam</p>
+      </div>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#destinasi">Destinasi</a></li>
+        <li><a href="#tentang">Tentang Kami</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+      <div style="margin-top: 50px; text-align: center">
+        <p style="font-size: 12px">Jam Buka:</p>
+        <p style="font-size: 14px; margin-top: 5px">Senin - Minggu: 08:00 - 18:00</p>
+      </div>
+    </nav>
+
+    <!-- Konten Utama -->
+    <main>
+      <!-- Hero Section -->
+      <section id="beranda">
+        <div style="background-color: #d4a762; padding: 30px; border-radius: 5px; color: white; text-align: center;">
+          <h1>Welcome To The Trip To Timor Leste</h1>
+          <button style="background-color: #3a2c2c; color: white; border: none; padding: 10px 20px; margin-top: 15px; cursor: pointer;">
+            Lihat Destinasi
+          </button>
+        </div>
+      </section>
+
+      <!-- Destinasi Section -->
+      <section id="destinasi">
+        <h2>Destinasi Populer di Timor Leste</h2>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; color: black;">
+          <div class="destination">
+            <img src="tml.jpeg" alt="Gunung Ramelau" />
+            <h3>Gunung Ramelau</h3>
+            <p style="font-weight: bold">Rp 25.000 - 30.000</p>
+          </div>
+          <div class="destination">
+            <img src="terjun.jpeg" alt="Air Terjun Dokomali" />
+            <h3>Air Terjun Dokomali</h3>
+            <p style="font-weight: bold">Rp 10.000 - 15.000</p>
+          </div>
+          <div class="destination">
+            <img src="mundu perdidu.jpg" alt="Gunung Mundu Perdidu" />
+            <h3>Gunung Mundu Perdidu</h3>
+            <p style="font-weight: bold">Rp 20.000 - 25.000</p>
+          </div>
+          <div class="destination">
+            <img src="mota bandera.jpeg" alt="Air Terjun Mota Bandera" />
+            <h3>Air Terjun Mota Bandera</h3>
+            <p style="font-weight: bold">Rp 10.000 - 15.000</p>
+            
+            </div>
+            <div class="destination">
+              <img
+                src="mundu perdidu.jpg"
+                alt="timor leste"
+                width="10"
+                height="150"
+              />
+              <h3>Gunung mundu perdidu</h3>
+              <p style="font-weight: bold">Rp 20.000 - 25.000</p>
+            
+            </div>
+            <div class="destination">
+              <img
+                src="mota bandera.jpeg"
+                alt="timor leste"
+                width="10"
+                height="150"
+              />
+              <h3>Air terjung mota bandera</h3>
+              <p style="font-weight: bold">Rp 50.000 - 55.000</p>
+            
+          </div>
+          <div class="destination">
+            <img
+              src="cr.jpg"
+              alt="timor leste"
+              width="10"
+              height="150"
+            />
+            <h3>Kristu rei</h3>
+            <p style="font-weight: bold">Rp 20.000 - 25.000</p>
+
+            </div>
+          <div class="destination">
+            <img
+              src="rabu lau.jpg"
+              alt="timor leste"
+              width="10"
+              height="150"
+            />
+            <h3>Rabu lau</h3>
+            <p style="font-weight: bold">Rp 150.000 - 200.000</p>
+
+          </div>
+          <div class="destination">
+            <img
+              src="tasi ata uru.jpg"
+              alt="timor leste"
+              width="10"
+              height="150"
+            />
+            <h3>Pantai atauru</h3>
+            <p style="font-weight: bold">Rp 100.000 - 150.000</p>
+        </section>
+        <!-- Koleksi Buku -->
+        <section id="koleksi" style="margin-bottom: 40px;">
+          <h2
+            style="
+              color: #241406;
+              border-bottom: 2px solid #cb6f18;
+              padding-bottom: 5px;
+              justify-content: center;
+            "
+           
+          >
+            Tentang Kami
+          </h2>
+
+          <div
+            style="
+              background-color: white (27, 8, 165);
+              padding: 20px;
+              border-radius: 5px;
+              margin-top: 20px;
+              color: black;
+              
+            "
+          >
+            <h3 style="color: #060606; margin-top: 0; align-items: center;justify-content: center;">
+            Trip To Timur Leste
+            </h3>
+            <p>
+            Jelajahi keindahan tersembunyi Timor Leste bersama kami! Nikmati pengalaman wisata yang tak terlupakan mulai dari pantai eksotis di Dili, budaya unik suku lokal, hingga keindahan alam pegunungan Ramelau yang memukau. Dalam paket tour ini, Anda akan diajak mengunjungi tempat-tempat ikonik seperti Cristo Rei, Pulau Atauro yang terkenal dengan spot snorkelingnya, serta menikmati kuliner khas Timor Leste yang menggugah selera.
+            </p>
+            <p>Bersama pemandu profesional dan fasilitas terbaik, liburan Anda akan terasa nyaman dan menyenangkan. Paket sudah termasuk transportasi, penginapan, tiket masuk wisata, serta dokumentasi perjalanan. Ayo, jadwalkan petualangan Anda sekarang dan rasakan sendiri pesona Timor Leste yang penuh warna dan kehangatan!</p>
+            <button
+              style="
+                background-color: #0ad9e0;
+                color: rgb(18, 17, 17);
+                border: none;
+                padding: 8px 15px;
+                margin-top: 10px;
+                cursor: pointer;
+              "
+              >
+              Daftar Sekarang
+            </button>
+          </div>
+        </section>
+
+        <!-- Kontak Section -->
+        <section id="kontak" style="margin-bottom: 40px">
+          <h2
+            style="
+              color: #2b1602;
+              border-bottom: 2px solid #da9939;
+              padding-bottom: 5px;
+            "
+          >
+            Hubungi Kami
+          </h2>
+
+          <div
+            style="
+              background-color: white (181, 34, 34);
+              padding: 20px;
+              border-radius: 5px;
+              margin-top: 20px;
+              color: black;
+            "
+          >
+            <p>
+              <strong>Alamat:</strong> Jl.kesamatan ai naru/ Jl. kesamatan Viqueque/ jl. pulau Atauru/ jl. Don Alesu Dili Timor Leste
+            </p>
+            <p><strong>Telepon:</strong> (062)085725919943 </p>
+            <p><strong>Email:</strong> martinhoxavier022@gmail.com</p>
+
+            <form style="margin-top: 20px">
+              <div style="margin-bottom: 10px">
+                <label style="display: block; margin-bottom: 5px"
+                  >Nama Anda</label
+                >
+                <input
+                  type="text"
+                  style="
+                    width: 100%;
+                    padding: 8px;
+                    border: 1px solid #0ba37f;
+                    border-radius: 3px;
+                  "
+                />
+              </div>
+
+              <div style="margin-bottom: 10px">
+                <label style="display: block; margin-bottom: 5px">Email</label>
+                <input
+                  type="email"
+                  style="
+                    width: 100%;
+                    padding: 8px;
+                    border: 1px solid #ddd;
+                    border-radius: 3px;
+                  "
+                />
+              </div>
+
+              <div style="margin-bottom: 10px">
+                <label style="display: block; margin-bottom: 5px">Pesan</label>
+                <textarea
+                  style="
+                    width: 100%;
+                    padding: 8px;
+                    border: 1px solid #ddd;
+                    border-radius: 3px;
+                    height: 100px;
+                  "
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                style="
+                  background-color: #10f7f7;
+                  color: rgb(243, 113, 7);
+                  border: none;
+                  padding: 10px 20px;
+                  cursor: pointer;
+                "
+              >
+                Kirim Pesan
+              </button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Footer -->
+    <footer
+      style="
+        background-color: #343613;
+        color: rgb(62, 245, 6);
+        text-align: center;
+        padding: 15px;
+      "
+    >
+            </h2>
+      </main>
+    </div>
+  </body>
+</html>
